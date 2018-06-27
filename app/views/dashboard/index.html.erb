@@ -20,10 +20,11 @@
    </nav>
 <!-- End Navbar -->
 <h1>QA Dashboard V2</h1>
+<br>
 
 
 <!-- Begin Carousel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="20000">
   <!-- <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -33,7 +34,7 @@
     <div class="carousel-item active">
 
       <!-- Begin legend -->
-  <div class='container'>
+
 
     <h4>Legend</h4>
     <div class="progress">
@@ -49,7 +50,7 @@
         <strong>UNTESTED</strong>
       </div>
     </div>
-  </div>
+
   <br>
 <!-- End legend -->
 
@@ -128,17 +129,145 @@
 
     <div class="carousel-item">
       <div>
-        <h2>COMING SOON!</h2>
-        <h2>List of JIRA tickets in "TESTING"</h2>
+        <!-- <h2>COMING SOON!</h2>
+        <h2>List of JIRA tickets in "TESTING"</h2> -->
       </div>
+      <!-- Begin table PI3-->
+      <div class="container">
+        <h2>PI3 18.2 tickets in TESTING</h2>
+        <p></p>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th>Priority</th>
+            <th>Type</th>
+            <th>Key</th>
+            <th>Summary</th>
+            <th>Assignee</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+      <tbody>
+          <tr>
+            <td>BLOCKING</td>
+            <td>Customer Bug</td>
+            <td>PI-8693</td>
+            <td>Google Cloud Printer Showing Off Line</td>
+            <td>Raj</td>
+            <td>TESTING</td>
+          </tr>
+          <tr>
+            <td>BLOCKING</td>
+            <td>Bug</td>
+            <td>PI-10244</td>
+            <td>(CPA: Lexmark 208) Input fields don't respond when tapped</td>
+            <td>Marvin</td>
+            <td>TESTING</td>
+          </tr>
+          <tr>
+            <td>HIGH</td>
+            <td>Bug</td>
+            <td>PI-7427</td>
+            <td>XEROX - Versalink Logout issues</td>
+            <td>Nick</td>
+            <td>TESTING</td>
+          </tr>
+          <tr>
+            <td>HIGH</td>
+            <td>Customer Bug</td>
+            <td>PI-9872</td>
+            <td>Toshiba "Bypass Tray is Empty" error always shows</td>
+            <td>Mitchell</td>
+            <td>TESTING</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>PrinterCloud 18.2 tickets in TESTING</h2>
+      <p></p>
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>Priority</th>
+          <th>Type</th>
+          <th>Key</th>
+          <th>Summary</th>
+          <th>Assignee</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+    <tbody>
+        <tr>
+          <td>BLOCKING</td>
+          <td>Bug</td>
+          <td>PI-9863</td>
+          <td>CPA Xerox Versalink .225 Can not manually log in</td>
+          <td>Nick</td>
+          <td>TESTING</td>
+        </tr>
+        <tr>
+          <td>BLOCKING</td>
+          <td>Bug</td>
+          <td>PI-9867</td>
+          <td>(PC CPA:HP-204) OXPd error when opening CPA</td>
+          <td>Brian</td>
+          <td>TESTING</td>
+        </tr>
+        <tr>
+          <td>BLOCKING</td>
+          <td>Bug</td>
+          <td>PI-9953</td>
+          <td>(PrinterCloud) HP CPAi: SSL Certificate of SSH md5 fingerprint...</td>
+          <td>Steve</td>
+          <td>TESTING</td>
+        </tr>
+        <tr>
+          <td>CRITICAL</td>
+          <td>Bug</td>
+          <td>PI-9878</td>
+          <td>MAC as servicehost: email Service: SSL certificate verify failed</td>
+          <td>Raj</td>
+          <td>TESTING</td>
+        </tr>
+        <tr>
+          <td>CRITICAL</td>
+          <td>Bug</td>
+          <td>PI-10024</td>
+          <td>Run new instance migrations from worker server</td>
+          <td>Raj</td>
+          <td>TESTING</td>
+        </tr>
+        <tr>
+          <td>HIGH</td>
+          <td>Customer Bug</td>
+          <td>PI-9119</td>
+          <td>Kyocera Printer OS X</td>
+          <td>Justin</td>
+          <td>TESTING</td>
+        </tr>
+      </tbody>
+    </table>
     </div>
 
-    <!-- <div class="carousel-item">
+    </div>
+
+    <div class="carousel-item">
       <div>
-        <h2>COMING SOON!</h2>
-        <h2>Begin to End Time to Test</h2>
+        <h2>A QA Engineer walks into a bar, and orders a beer:</h2>
+        <h3><ul>
+          <li>Then he orders 0 beers.</li>
+          <li>Then he orders 999999999999 beers.</li>
+          <li>Then he orders an aardvark.</li>
+          <li>Then he orders nothing.</li>
+          <li>Then he orders -1 beers.</li>
+          <li>Then he orders NULL beers.</li>
+          <li>Then he orders asnwikfjsdf.</li>
+          <li>Then he orders a "><script>give_me_your_credit_card()</script>.</li>
+          <li>Finally, the QA engineer leaves without paying, comes back, and asks for the tab.</li>
+        </ul></h3>
+
       </div>
-    </div> -->
+    </div>
   </div>
   <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -149,8 +278,9 @@
     <span class="sr-only">Next</span>
   </a> -->
 </div>
-<br>
 <!-- End Carousel -->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
