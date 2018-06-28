@@ -10,128 +10,26 @@
 
     <title>QA Dash 2</title>
   </head>
+
   <body class="container">
-<!-- Begin Navbar -->
+  <!-- Begin Navbar -->
     <nav class="navbar navbar-custom navbar-expand-md fixed-top bg-dark">
-     <a class="navbar-brand" href="#">PrinterLogic</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+       <a class="navbar-brand" href="#">PrinterLogic</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
-     </button>
-   </nav>
-<!-- End Navbar -->
-<h1>QA Dashboard V2</h1>
-<br>
+       </button>
+     </nav>
+  <!-- End Navbar -->
 
-
-<!-- Begin Carousel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="17000">
-  <!-- <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol> -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-
-      <!-- Begin legend -->
-
-
-    <h4>Legend</h4>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;"><strong>PASSED</strong>
-      </div>
-      <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
-       <strong>BLOCKED</strong>
-      </div>
-      <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
-        <strong>FAILED</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
-        <strong>UNTESTED</strong>
-      </div>
-    </div>
-
-  <br>
-<!-- End legend -->
-
-<!-- Begin PrinterCloud 18.2 Smoke -->
-  <div class="border border-dark">
-    <h2>&ensp;PrinterCloud 18.2.2.40+ Regression progress<span style="color: red;"> (stage-elect)</span></h2><h4><span style="color: red;"> &ensp;instancename.pl-stage-elect.com/admin</span></h4>
-    <h4>&ensp;Updated <span><%= Time.now.asctime %></span></h4>
-    <br />
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width:26%; background-color: #95d96d !important;">
-          <strong>26%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-        <strong>2%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:2%; background-color: #f1888f !important;">
-      <strong>2%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:70%; background-color: #707070 !important;">
-        <strong>70%</strong>
-      </div>
-    </div>
+    <h1>QA Dashboard V2</h1>
     <br>
-  </div>
-  <br>
-<!-- End PrinterCloud 18.2 Smoke -->
 
-<!-- Begin PI 3 -->
-<div class="border border-dark">
-<h2>&ensp;18.2.1.28+ (PI 3) Regression progress</h2>
-<!-- <h3>&ensp;Testing = 17</h3> -->
-<h4>&ensp;Updated <span><%= Time.now.asctime %></span></h4>
-<br />
-  <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width:83%; background-color: #95d96d !important;"><strong>83%</strong>
-    </div>
-    <div class="progress-bar" role="progressbar" style="width:6%; background-color: #8080ff !important;">
-       <strong>6%</strong>
-    </div>
-    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:7%; background-color: #f1888f !important;"><strong>7%</strong>
-    </div>
-    <div class="progress-bar" role="progressbar" style="width:4%; background-color: #707070 !important;">
-      <strong>4%</strong>
-    </div>
-  </div>
-  <br>
-</div>
-<br>
-<!-- End PI 3 -->
-
-<!-- Begin Mx#4 Regression -->
-<div class="border border-dark">
-<h2>&ensp;17.1.1.252 RELEASED</h2><h4><span style="color: red;">&ensp;(Test Closure in Process)</span></h4>
-
-<h4>&ensp;Updated <span><%= Time.now.asctime %></span></h4>
-<br />
-  <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width:89%; background-color: #95d96d !important;">
-        <strong>89%</strong>
-    </div>
-    <div class="progress-bar" role="progressbar" style="width:3%; background-color: #8080ff !important;">
-        <strong>3%</strong>
-    </div>
-    <div class="progress-bar" role="progressbar" style="width:7%; background-color: #f18884 !important;">
-        <strong>7%</strong>
-    </div>
-    <div class="progress-bar" role="progressbar" style="width:1%; background-color: #707070 !important;">
-      <strong>1%</strong>
-    </div>
-  </div>
-  <br>
-</div>
-<br>
-<!-- End Mx#4 Regression -->
-</div>
-
+  <!-- Begin Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="17000">
+    <div class="carousel-inner">
     <div class="carousel-item">
-      <!-- Begin table PI3-->
-      <div class="container">
-        <h2>PI3 18.2 tickets in TESTING</h2>
-        <p></p>
+      <h2>PI3 18.2 tickets in TESTING</h2>
+      <p></p>
       <table class="table table-bordered table-striped">
         <thead class="thead-dark">
           <tr>
@@ -143,7 +41,7 @@
             <th>Status</th>
           </tr>
         </thead>
-      <tbody>
+        <tbody>
           <tr>
             <td>BLOCKING</td>
             <td>Bug</td>
@@ -186,26 +84,23 @@
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
 
-  <div class="carousel-item">
-    <!-- Begin table PI3-->
-    <div class="container">
+    </div>
+    <div class="carousel-item">
       <h2>PrinterCloud 18.2 tickets in TESTING</h2>
       <p></p>
-    <table class="table table-bordered table-striped">
-      <thead class="thead-dark">
-        <tr>
-          <th>Priority</th>
-          <th>Type</th>
-          <th>Key</th>
-          <th>Summary</th>
-          <th>Assignee</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-    <tbody>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th>Priority</th>
+            <th>Type</th>
+            <th>Key</th>
+            <th>Summary</th>
+            <th>Assignee</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>BLOCKING</td>
           <td>Bug</td>
@@ -254,40 +149,99 @@
           <td>Justin</td>
           <td>TESTING</td>
         </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+
     </div>
-  </div>
-
-
     <div class="carousel-item">
-      <div>
-        <h1>Joke of the Day!</h1>
-        <p><h2>A QA Engineer walks into Sakura, and orders sushi:</h2></p>
+      <h1>Joke of the Day!</h1>
+      <h2>A sheep, a drum and a snake fall down a mountain...</h2>
+        <p></p>
         <h3><ul>
-          <li>Then he orders 0 sushi.</li>
-          <li>Then he orders 999999999999 sushi.</li>
-          <li>Then he orders an aardvark.</li>
-          <li>Then he orders nothing.</li>
-          <li>Then he orders -1 sushi.</li>
-          <li>Then he orders NULL sushi.</li>
-          <li>Then he orders asnwikfjsdf.</li>
-          <li>Then he orders a "><script>give_me_your_credit_card()</script>.</li>
-          <li>Finally, the QA engineer leaves without paying, comes back, and asks for the tab.</li>
+          <li>Ba</li>
+          <li>Dum</li>
+          <li>Tss!</li>
         </ul></h3>
 
-      </div>
     </div>
-  </div>
-  <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a> -->
-</div>
+    <div class="carousel-item active">
+      <!-- Begin legend -->
+        <h4>Legend</h4>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;"><strong>PASSED</strong>
+        </div>
+        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
+         <strong>BLOCKED</strong>
+        </div>
+        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
+          <strong>FAILED</strong>
+        </div>
+        <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
+          <strong>UNTESTED</strong>
+        </div>
+      </div><br>
+<!-- End legend -->
+
+<!-- Begin PrinterCloud 18.2 Regression -->
+    <div class="border border-dark">
+      <h2>&ensp;PrinterCloud 18.2.2.40+ Regression progress<span style="color: red;"> (stage-elect)</span></h2><h4><span style="color: red;"> &ensp;instancename.pl-stage-elect.com/admin</span></h4>
+      <h4>&ensp;Updated <span><%= Time.now.asctime %></span></h4>
+      <br />
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width:26%; background-color: #95d96d !important;">
+          <strong>26%</strong>
+      </div>
+      <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+        <strong>2%</strong>
+      </div>
+      <div class="progress-bar" role="progressbar" style="width:2%; background-color: #f1888f !important;">
+      <strong>2%</strong>
+      </div>
+      <div class="progress-bar" role="progressbar" style="width:70%; background-color: #707070 !important;">
+        <strong>70%</strong>
+      </div>
+    </div><br>
+<!-- End PrinterCloud 18.2 Regression -->
+
+<!-- Begin PI 3 -->
+    <div class="border border-dark">
+      <h2>&ensp;18.2.1.28+ (PI 3) Regression progress</h2>
+      <h4>&ensp;Updated <span><%= Time.now.asctime %></span></h4>
+      <br>
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width:83%; background-color: #95d96d !important;"><strong>83%</strong>
+      </div>
+      <div class="progress-bar" role="progressbar" style="width:6%; background-color: #8080ff !important;">
+       <strong>6%</strong>
+      </div>
+      <div class="progress-bar progress-bar-danger" role="progressbar" style="width:7%; background-color: #f1888f !important;"><strong>7%</strong>
+      </div>
+      <div class="progress-bar" role="progressbar" style="width:4%; background-color: #707070 !important;">
+      <strong>4%</strong>
+    </div>
+  </div><br>
+<!-- End PI 3 -->
+
+
+  <!-- Begin Joke of the day -->
+  <!-- <div class="carousel-item">
+    <div>
+    <h1>Joke of the Day!</h1>
+      <p><h2>A QA Engineer walks into Sakura, and orders sushi:</h2></p>
+      <h3><ul>
+        <li>Then he orders 0 sushi.</li>
+        <li>Then he orders 999999999999 sushi.</li>
+        <li>Then he orders an aardvark.</li>
+        <li>Then he orders nothing.</li>
+        <li>Then he orders -1 sushi.</li>
+        <li>Then he orders NULL sushi.</li>
+        <li>Then he orders asnwikfjsdf.</li>
+        <li>Then he orders a "><script>give_me_your_credit_card()</script>.</li>
+        <li>Finally, the QA engineer leaves without paying, comes back, and asks for the tab.</li>
+      </ul></h3>
+    </div>
+  </div> -->
+  <!-- End Joke of the day -->
 <!-- End Carousel -->
 
 
