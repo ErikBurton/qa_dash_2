@@ -12,227 +12,223 @@
   </head>
 
   <body class="container">
-  <!-- Begin Navbar -->
+    <!-- Begin Navbar -->
     <nav class="navbar navbar-custom navbar-expand-md fixed-top bg-dark">
-       <a class="navbar-brand" href="#">PrinterLogic</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-       </button>
-     </nav>
-  <!-- End Navbar -->
+      <a class="navbar-brand" href="#">PrinterLogic</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+    <!-- End Navbar -->
 
     <h1>QA Dashboard V2</h1>
-    <h4>Updated <span><%= Time.now.strftime ("%a, %b %d @  %l:%M:%S %p") %></span></h4>
+    <h4>Updated
+      <span><%= Time.now.strftime ("%a, %b %d @ %l:%M:%S %p") %></span></h4>
     <br>
 
-  <!-- Begin Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="17000">
-    <div class="carousel-inner">
-    <div class="carousel-item">
-      <h2>PI3 18.2 tickets in TESTING</h2>
-      <p></p>
-      <table class="table table-bordered table-striped">
-        <thead class="thead-dark">
-          <tr>
-            <th>Priority</th>
-            <th>Type</th>
-            <th>Key</th>
-            <th>Summary</th>
-            <th>Assignee</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HIGH</td>
-            <td>Customer Bug</td>
-            <td>PI-9872</td>
-            <td>Toshiba "Bypass Tray is Empty" error always shows</td>
-            <td>Mitchell</td>
-            <td>TESTING</td>
-          </tr>
-          <tr>
-            <td>HIGH</td>
-            <td>Bug</td>
-            <td>PI-10515</td>
-            <td>Mac Client does not prompt for token when navigated to whitelisted url</td>
-            <td>Raj</td>
-            <td>TESTING</td>
-          </tr>
-          <tr>
-            <td>HIGH</td>
-            <td>Bug</td>
-            <td>PI-10528</td>
-            <td>DW ETL: Out of memory error</td>
-            <td>Raj</td>
-            <td>TESTING</td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- Begin Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="17000">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <h2>PI3 18.2 tickets in TESTING</h2>
+          <p></p>
+          <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th>Priority</th>
+                <th>Type</th>
+                <th>Key</th>
+                <th>Summary</th>
+                <th>Assignee</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HIGH</td>
+                <td>Customer Bug</td>
+                <td>PI-9872</td>
+                <td>Toshiba "Bypass Tray is Empty" error always shows</td>
+                <td>Mitchell</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>HIGH</td>
+                <td>Bug</td>
+                <td>PI-10515</td>
+                <td>Mac Client does not prompt for token when navigated to whitelisted url</td>
+                <td>Raj</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>HIGH</td>
+                <td>Bug</td>
+                <td>PI-10528</td>
+                <td>DW ETL: Out of memory error</td>
+                <td>Raj</td>
+                <td>TESTING</td>
+              </tr>
+            </tbody>
+          </table>
 
-    </div>
-    <div class="carousel-item">
-      <h2>PrinterCloud 18.2 tickets in TESTING</h2>
-      <p></p>
-      <table class="table table-bordered table-striped">
-        <thead class="thead-dark">
-          <tr>
-            <th>Priority</th>
-            <th>Type</th>
-            <th>Key</th>
-            <th>Summary</th>
-            <th>Assignee</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>BLOCKING</td>
-          <td>Bug</td>
-          <td>PI-9863</td>
-          <td>CPA Xerox Versalink .225 Can not manually log in</td>
-          <td>Nick</td>
-          <td>TESTING</td>
-        </tr>
-        <tr>
-          <td>BLOCKING</td>
-          <td>Bug</td>
-          <td>PI-9867</td>
-          <td>(PC CPA:HP-204) OXPd error when opening CPA</td>
-          <td>Brian</td>
-          <td>TESTING</td>
-        </tr>
-        <tr>
-          <td>BLOCKING</td>
-          <td>Bug</td>
-          <td>PI-9953</td>
-          <td>(PrinterCloud) HP CPAi: SSL Certificate of SSH md5 fingerprint...</td>
-          <td>Steve</td>
-          <td>TESTING</td>
-        </tr>
-        <tr>
-          <td>CRITICAL</td>
-          <td>Bug</td>
-          <td>PI-9878</td>
-          <td>MAC as servicehost: email Service: SSL certificate verify failed</td>
-          <td>Raj</td>
-          <td>TESTING</td>
-        </tr>
-        <tr>
-          <td>CRITICAL</td>
-          <td>Bug</td>
-          <td>PI-10024</td>
-          <td>Run new instance migrations from worker server</td>
-          <td>Raj</td>
-          <td>TESTING</td>
-        </tr>
-        <tr>
-          <td>HIGH</td>
-          <td>Customer Bug</td>
-          <td>PI-9119</td>
-          <td>Kyocera Printer OS X</td>
-          <td>Justin</td>
-          <td>TESTING</td>
-        </tr>
-        </tbody>
-      </table>
-
-    </div>
-    <div class="carousel-item">
-      <h1>Joke of the Day!</h1>
-      <h2>A sheep, a drum and a snake fall down a mountain...</h2>
-        <p></p>
-        <h3><ul>
-          <li>Baa</li>
-          <li>Dum</li>
-          <li>Tss!</li>
-        </ul></h3>
-    </div>
-
-    <div class="carousel-item active">
-      <!-- Begin legend -->
-        <h4>Legend</h4>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;"><strong>PASSED</strong>
         </div>
-        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
-         <strong>BLOCKED</strong>
+        <div class="carousel-item">
+          <h2>PrinterCloud 18.2 tickets in TESTING</h2>
+          <p></p>
+          <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th>Priority</th>
+                <th>Type</th>
+                <th>Key</th>
+                <th>Summary</th>
+                <th>Assignee</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>BLOCKING</td>
+                <td>Bug</td>
+                <td>PI-9863</td>
+                <td>CPA Xerox Versalink .225 Can not manually log in</td>
+                <td>Nick</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>BLOCKING</td>
+                <td>Bug</td>
+                <td>PI-9867</td>
+                <td>(PC CPA:HP-204) OXPd error when opening CPA</td>
+                <td>Brian</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>BLOCKING</td>
+                <td>Bug</td>
+                <td>PI-9953</td>
+                <td>(PrinterCloud) HP CPAi: SSL Certificate of SSH md5 fingerprint...</td>
+                <td>Steve</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>CRITICAL</td>
+                <td>Bug</td>
+                <td>PI-9878</td>
+                <td>MAC as servicehost: email Service: SSL certificate verify failed</td>
+                <td>Raj</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>CRITICAL</td>
+                <td>Bug</td>
+                <td>PI-10024</td>
+                <td>Run new instance migrations from worker server</td>
+                <td>Raj</td>
+                <td>TESTING</td>
+              </tr>
+              <tr>
+                <td>HIGH</td>
+                <td>Customer Bug</td>
+                <td>PI-9119</td>
+                <td>Kyocera Printer OS X</td>
+                <td>Justin</td>
+                <td>TESTING</td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
-        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
-          <strong>FAILED</strong>
+        <div class="carousel-item">
+          <h1>Joke of the Day!</h1>
+          <h2 class="text-justify">Luke Skywalker and Obi-Wan Kenobi walk into a Chinese restaurant. Ten minutes into the meal
+          Luke still can't figure out how to use the chop sticks, dropping food everywhere.
+          Obi-Wab Kenobi finally snaps:</h2>
+          <p></p>
+          <h1>
+          "USE THE FORKS LUKE!"
+        </h1>
         </div>
-        <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
-          <strong>UNTESTED</strong>
-        </div>
-      </div><br>
-<!-- End legend -->
 
-      <div class="border border-dark">
-        <h2>&ensp;PrinterCloud 18.2.2.X Regression: Take 2<span style="color: red;"> (stage-elect)</span></h2>
-        <br>
-        <div class="progress">
-        <!-- <div class="progress-bar" role="progressbar" style="width:31%; background-color: #95d96d !important;">
-            <strong>31%</strong>
-        </div>
-        <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-          <strong>2%</strong>
-        </div>
-        <div class="progress-bar" role="progressbar" style="width:4%; background-color: #f1888f !important;">
-        <strong>4%</strong>
-        </div> -->
-        <div class="progress-bar" role="progressbar" style="width:100%; background-color: #707070 !important;">
-          <strong>100%</strong>
-        </div>
-      </div><br>
+        <div class="carousel-item active">
+          <!-- Begin legend -->
+          <h4>Legend</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;">
+              <strong>PASSED</strong>
+            </div>
+            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
+              <strong>BLOCKED</strong>
+            </div>
+            <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
+              <strong>FAILED</strong>
+            </div>
+            <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
+              <strong>UNTESTED</strong>
+            </div>
+          </div><br>
+          <!-- End legend -->
 
-<!-- Begin PrinterCloud 18.2 Regression -->
-    <div class="border border-dark">
-      <h2>&ensp;PrinterCloud 18.2.2.40+ Regression progress<span style="color: red;"> (stage-elect)</span></h2><h4>
-      <br>
-      <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width:34%; background-color: #95d96d !important;">
-          <strong>34%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-        <strong>2%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:5%; background-color: #f1888f !important;">
-      <strong>5%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:60%; background-color: #707070 !important;">
-        <strong>60%</strong>
-      </div>
-    </div><br>
-<!-- End PrinterCloud 18.2 Regression -->
+          <div class="border border-dark">
+            <h2>&ensp;PrinterCloud 18.2.2.X Regression: Take 2<span style="color: red;">
+                (stage-elect)</span></h2>
+            <br>
+            <div class="progress">
+              <!-- <div class="progress-bar" role="progressbar" style="width:31%; background-color: #95d96d !important;"> <strong>31%</strong> </div> <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+              <strong>2%</strong> </div> <div class="progress-bar" role="progressbar" style="width:4%; background-color: #f1888f !important;"> <strong>4%</strong> </div> -->
+              <div class="progress-bar" role="progressbar" style="width:100%; background-color: #707070 !important;">
+                <strong>100%</strong>
+              </div>
+            </div><br>
 
-<!-- Begin PI 3 -->
-    <div class="border border-dark">
-      <h2>&ensp;18.2.1.28+ (PI 3) Regression progress</h2>
-      <br>
-      <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width:87%; background-color: #95d96d !important;"><strong>87%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-       <strong>2%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:7%; background-color: #f1888f !important;"><strong>7%</strong>
-      </div>
-      <div class="progress-bar" role="progressbar" style="width:4%; background-color: #707070 !important;">
-      <strong>4%</strong>
-      </div>
-    </div><br>
-  </div>
+            <!-- Begin PrinterCloud 18.2 Regression -->
+            <div class="border border-dark">
+              <h2>&ensp;PrinterCloud 18.2.2.40+ Regression progress<span style="color: red;">
+                  (stage-elect)</span></h2>
+              <h4>
+                <br>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:40%; background-color: #95d96d !important;">
+                    <strong>40%</strong>
+                  </div>
+                  <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+                    <strong>2%</strong>
+                  </div>
+                  <div class="progress-bar" role="progressbar" style="width:5%; background-color: #f1888f !important;">
+                    <strong>5%</strong>
+                  </div>
+                  <div class="progress-bar" role="progressbar" style="width:54%; background-color: #707070 !important;">
+                    <strong>54%</strong>
+                  </div>
+                </div><br>
+                <!-- End PrinterCloud 18.2 Regression -->
 
+                <!-- Begin PI 3 -->
+                <div class="border border-dark">
+                  <h2>&ensp;18.2.1.28+ (PI 3) Regression progress</h2>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:88%; background-color: #95d96d !important;">
+                      <strong>88%</strong>
+                    </div>
+                    <!-- <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+                      <strong>2%</strong>
+                    </div> -->
+                    <div class="progress-bar" role="progressbar" style="width:7%; background-color: #f1888f !important;">
+                      <strong>7%</strong>
+                    </div>
+                    <div class="progress-bar" role="progressbar" style="width:5%; background-color: #707070 !important;">
+                      <strong>5%</strong>
+                    </div>
+                  </div><br>
+                </div>
 
-<!-- End PI 3 -->
+                <!-- End PI 3 -->
 
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+              </body>
+            </html>
