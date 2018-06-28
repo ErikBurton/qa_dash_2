@@ -22,7 +22,7 @@
   <!-- End Navbar -->
 
     <h1>QA Dashboard V2</h1>
-    <h4>Updated <span><%= Time.now.asctime %></span></h4>
+    <h4>Updated <span><%= Time.now.strftime ("%a %b-%d,  %r") %></span></h4>
     <br>
 
   <!-- Begin Carousel -->
@@ -148,7 +148,7 @@
           <li>Tss!</li>
         </ul></h3>
     </div>
-    
+
     <div class="carousel-item active">
       <!-- Begin legend -->
         <h4>Legend</h4>
