@@ -29,7 +29,7 @@
     <!-- Begin Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="17000">
       <div class="carousel-inner">
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <h2>PI3 18.2 tickets in TESTING</h2>
           <p></p>
           <table class="table table-bordered table-striped">
@@ -122,17 +122,14 @@
             </tbody>
           </table>
 
-        </div>
+        </div> -->
+
+    <!-- BEGIN JOKE OF THE DAY -->
         <div class="carousel-item">
-          <h1>Joke of the Day!</h1>
-          <h2 class="text-justify">Luke Skywalker and Obi-Wan Kenobi walk into a Chinese restaurant. Ten minutes into the meal
-          Luke still can't figure out how to use the chop sticks, dropping food everywhere.
-          Obi-Wan Kenobi finally snaps:</h2>
-          <p></p>
-          <h1>
-          "USE THE FORKS LUKE!"
-        </h1>
+          <h1>Joke of the Day!</h1><br>
+          <%= link_to image_tag("dilbert 2.jpg", class: "img-responsive center-block") %>
         </div>
+    <!-- END JOKE OF THE DAY -->
 
         <div class="carousel-item active">
           <!-- Begin legend -->
@@ -153,9 +150,10 @@
           </div><br>
           <!-- End legend -->
 
+          <!-- PRINTERCLOUD RERUN BEGIN -->
           <div class="border border-dark">
-            <h2>&ensp;PrinterCloud 18.2.2.X Regression: Take 2<span style="color: red;">
-                (stage-elect)</span></h2>
+            <h2>&ensp;PrinterCloud 18.2.2.49+ RERUN<span style="color: red;">
+                (Stage-Elect)</span></h2>
             <br>
             <div class="progress">
               <!-- <div class="progress-bar" role="progressbar" style="width:31%; background-color: #95d96d !important;"> <strong>31%</strong> </div> <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
@@ -164,16 +162,17 @@
                 <strong>100%</strong>
               </div>
             </div><br>
+          
+            <!-- PRINTERCLOUD RERUN END -->
 
             <!-- Begin PrinterCloud 18.2 Regression -->
             <div class="border border-dark">
               <h2>&ensp;PrinterCloud 18.2.2.40+ Regression progress<span style="color: red;">
-                  (stage-elect)</span></h2>
-              <h4>
+                  (Stage-Elect)</span></h2>
                 <br>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width:41%; background-color: #95d96d !important;">
-                    <strong>41%</strong>
+                  <div class="progress-bar" role="progressbar" style="width:51%; background-color: #95d96d !important;">
+                    <strong>51%</strong>
                   </div>
                   <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
                     <strong>2%</strong>
@@ -181,33 +180,77 @@
                   <div class="progress-bar" role="progressbar" style="width:5%; background-color: #f1888f !important;">
                     <strong>5%</strong>
                   </div>
-                  <div class="progress-bar" role="progressbar" style="width:52%; background-color: #707070 !important;">
-                    <strong>52%</strong>
+                  <div class="progress-bar" role="progressbar" style="width:42%; background-color: #707070 !important;">
+                    <strong>42%</strong>
                   </div>
                 </div><br>
-                <!-- End PrinterCloud 18.2 Regression -->
+            <!-- End PrinterCloud 18.2 Regression -->
+            </div>
+          </div>
+        </div>
 
-                <!-- Begin PI 3 -->
-                <div class="border border-dark">
-                  <h2>&ensp;18.2.1.28+ (PI 3) Regression progress</h2>
-                  <br>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width:89%; background-color: #95d96d !important;">
-                      <strong>89%</strong>
-                    </div>
-                    <!-- <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-                      <strong>2%</strong>
-                    </div> -->
-                    <div class="progress-bar" role="progressbar" style="width:6%; background-color: #f1888f !important;">
-                      <strong>6%</strong>
-                    </div>
-                    <div class="progress-bar" role="progressbar" style="width:5%; background-color: #707070 !important;">
-                      <strong>5%</strong>
-                    </div>
-                  </div><br>
+            <div class="carousel-item">
+              <!-- Begin legend -->
+              <h4>Legend</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;">
+                  <strong>PASSED</strong>
                 </div>
+                <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
+                  <strong>BLOCKED</strong>
+                </div>
+                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
+                  <strong>FAILED</strong>
+                </div>
+                <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
+                  <strong>UNTESTED</strong>
+                </div>
+              </div><br>
+              <!-- End legend -->
+            <!-- Begin PI3 18.2.x.x Sanitiy -->
+            <div class="border border-dark">
+              <h2>&ensp;PI3 18.2.x.x Sanity progress<span style="color: red;"></span></h2>
+                <br>
+                <div class="progress">
+                  <!-- <div class="progress-bar" role="progressbar" style="width:41%; background-color: #95d96d !important;">
+                    <strong>41%</strong>
+                  </div>
+                  <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+                    <strong>2%</strong>
+                  </div>
+                  <div class="progress-bar" role="progressbar" style="width:5%; background-color: #f1888f !important;">
+                    <strong>5%</strong>
+                  </div> -->
+                  <div class="progress-bar" role="progressbar" style="width:100%; background-color: #707070 !important;">
+                    <strong>100%</strong>
+                  </div>
+                </div><br>
+            <!-- End PI3 18.2.x.x Sanitiy -->
 
+            <!-- Begin PI 3 -->
+            <div class="border border-dark">
+              <h2>&ensp;PI3 18.2.1.28+ Regression progress</h2>
+              <br>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:91%; background-color: #95d96d !important;">
+                  <strong>91%</strong>
+                </div>
+                <!-- <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+                  <strong>2%</strong>
+                </div> -->
+                <div class="progress-bar" role="progressbar" style="width:6%; background-color: #f1888f !important;">
+                  <strong>6%</strong>
+                </div>
+                <div class="progress-bar" role="progressbar" style="width:3%; background-color: #707070 !important;">
+                  <strong>3%</strong>
+                </div>
+              </div><br>
                 <!-- End PI 3 -->
+
+
+
+
+
 
                 <!-- Optional JavaScript -->
                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
