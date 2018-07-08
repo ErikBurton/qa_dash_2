@@ -13,3 +13,25 @@ body {
 .branch {
   color: red;
 }
+
+.progress-bar-1 {
+  background-color: #95d96d;
+  text-align: center;
+}
+
+.progress-bar-2 {
+  background-color: #8080ff;
+  text-align: center;
+  color: white;
+}
+
+.progress-bar-3 {
+  background-color: #F1888f;
+  text-align: center;
+}
+
+.progress-bar-4 {
+  background-color: #707070;
+  text-align: center;
+  color: white;
+}

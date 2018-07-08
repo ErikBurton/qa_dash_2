@@ -29,6 +29,17 @@
     <!-- Begin Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="17000">
       <div class="carousel-inner">
+
+        <!-- BEGIN JOKE OF THE DAY -->
+            <div class="carousel-item">
+              <h1>Joke of the Day!</h1><br>
+              <%= link_to image_tag("jod.png", class: "mx-auto d-block") %>
+              <br>
+              <h1 class="text-center" style="color:red;">HAPPY FRIDAY!</h1>
+            </div>
+
+        <!-- END JOKE OF THE DAY -->
+
         <!-- <div class="carousel-item">
           <h2>PI3 18.2 tickets in TESTING</h2>
           <p></p>
@@ -124,143 +135,109 @@
 
         </div> -->
 
-    <!-- BEGIN JOKE OF THE DAY -->
-        <div class="carousel-item">
-          <h1>Joke of the Day!</h1><br>
-          <%= link_to image_tag("jod.png", class: "mx-auto d-block") %>
-          <br>
-          <h1 class="text-center" style="color:red;">HAPPY FRIDAY!</h1>
-        </div>
-    <!-- END JOKE OF THE DAY -->
-
+        <!-- Begin legend -->
         <div class="carousel-item active">
-          <!-- Begin legend -->
           <h4>Legend</h4>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;">
-              <strong>PASSED</strong>
+            <div class="progress-bar-1" role="progressbar" style="width:25%;"><strong>PASSED</strong>
             </div>
-            <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
-              <strong>BLOCKED</strong>
+            <div class="progress-bar-2 progress-bar-warning" role="progressbar" style="width:25%;"><strong>BLOCKED</strong>
             </div>
-            <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
-              <strong>FAILED</strong>
+            <div class="progress-bar-3 progress-bar-danger" role="progressbar" style="width:25%;"><strong>FAILED</strong>
             </div>
-            <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
-              <strong>UNTESTED</strong>
+            <div class="progress-bar-4" role="progressbar" style="width:25%;"><strong>UNTESTED</strong>
             </div>
           </div><br>
           <!-- End legend -->
 
           <!-- PRINTERCLOUD RERUN BEGIN -->
-          <div class="border border-dark">
+          <div class="border border-dark rounded">
             <h2>&ensp;PrinterCloud<span class="branch"> 18.3.2.1+</span> RERUN<span class="branch">
                 (Stage-Elect)</span> (223 / 311 untested)</h2>
             <br>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width:24%; background-color: #95d96d !important;"> <strong>24%</strong>
+              <div class="progress-bar-1" role="progressbar" style="width:24%;"><strong>24%</strong>
               </div>
-
-              <div class="progress-bar" role="progressbar" style="width:1%; background-color: #8080ff !important;">
-              <strong>1%</strong>
+              <div class="progress-bar-2" role="progressbar" style="width:1%;"><strong>1%</strong>
               </div>
-
-              <div class="progress-bar" role="progressbar" style="width:4%; background-color: #f1888f !important;"> <strong>4%</strong>
+              <div class="progress-bar-3" role="progressbar" style="width:4%;"><strong>4%</strong>
               </div>
-
-              <div class="progress-bar" role="progressbar" style="width:72%; background-color: #707070 !important;"><strong>72%</strong>
+              <div class="progress-bar-4" role="progressbar" style="width:72%;"><strong>72%</strong>
               </div>
-
             </div><br>
-
+          </div><br>
             <!-- PRINTERCLOUD RERUN END -->
 
             <!-- Begin PrinterCloud 18.2 Regression -->
-            <div class="border border-dark">
+            <div class="border border-dark rounded">
               <h2>&ensp;PrinterCloud 18.2.2.40+ Regression<span class="branch">
                   (Stage-Elect)</span> (122 / 291 untested)</h2>
                 <br>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width:50%; background-color: #95d96d !important;">
-                    <strong>50%</strong>
+                  <div class="progress-bar-1" role="progressbar" style="width:50%;"><strong>50%</strong>
                   </div>
-                  <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-                    <strong>2%</strong>
+                  <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
                   </div>
-                  <div class="progress-bar" role="progressbar" style="width:6%; background-color: #f1888f !important;">
-                    <strong>6%</strong>
+                  <div class="progress-bar-3" role="progressbar" style="width:6%;"><strong>6%</strong>
                   </div>
-                  <div class="progress-bar" role="progressbar" style="width:42%; background-color: #707070 !important;">
-                    <strong>42%</strong>
+                  <div class="progress-bar-4" role="progressbar" style="width:42%;"><strong>42%</strong>
                   </div>
                 </div><br>
             <!-- End PrinterCloud 18.2 Regression -->
             </div>
           </div>
-        </div>
 
+
+            <!-- Begin legend -->
             <div class="carousel-item">
-              <!-- Begin legend -->
               <h4>Legend</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:25%; background-color: #95d96d !important;">
-                  <strong>PASSED</strong>
+                <div class="progress-bar-1" role="progressbar" style="width:25%;"><strong>PASSED</strong>
                 </div>
-                <div class="progress-bar progress-bar-warning" role="progressbar" style="width:25%; background-color: #8080ff !important;">
-                  <strong>BLOCKED</strong>
+                <div class="progress-bar-2" role="progressbar" style="width:25%;"><strong>BLOCKED</strong>
                 </div>
-                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:25%; background-color: #F1888f !important;">
-                  <strong>FAILED</strong>
+                <div class="progress-bar-3" role="progressbar" style="width:25%;"><strong>FAILED</strong>
                 </div>
-                <div class="progress-bar" role="progressbar" style="width:25%; background-color: #707070 !important;">
-                  <strong>UNTESTED</strong>
+                <div class="progress-bar-4" role="progressbar" style="width:25%;"><strong>UNTESTED</strong>
                 </div>
               </div><br>
               <!-- End legend -->
+
             <!-- Begin PI3 18.2.x.x Sanitiy -->
-            <div class="border border-dark">
+            <div class="border border-dark rounded">
               <h2>&ensp;PI3 18.2.x.x Sanity progress<span style="color: red;"></span> (84 / 84 untested)</h2>
                 <br>
                 <div class="progress">
-                  <!-- <div class="progress-bar" role="progressbar" style="width:41%; background-color: #95d96d !important;">
-                    <strong>41%</strong>
+                  <!-- <div class="progress-bar-1" role="progressbar" style="width:41%;"><strong>41%</strong>
                   </div>
-                  <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-                    <strong>2%</strong>
+                  <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
                   </div>
-                  <div class="progress-bar" role="progressbar" style="width:5%; background-color: #f1888f !important;">
-                    <strong>5%</strong>
+                  <div class="progress-bar-3" role="progressbar" style="width:5%;"><strong>5%</strong>
                   </div> -->
-                  <div class="progress-bar" role="progressbar" style="width:100%; background-color: #707070 !important;">
-                    <strong>100%</strong>
+                  <div class="progress-bar-4" role="progressbar" style="width:100%;"><strong>100%</strong>
                   </div>
                 </div><br>
+              </div><br>
             <!-- End PI3 18.2.x.x Sanitiy -->
 
             <!-- Begin PI 3 -->
-            <div class="border border-dark">
+            <div class="border border-dark rounded">
               <h2>&ensp;PI3 18.2.1.28+ Regression (14 / 529 untested)</h2>
               <br>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:91%; background-color: #95d96d !important;">
-                  <strong>91%</strong>
+                <div class="progress-bar-1" role="progressbar" style="width:91%;"><strong>91%</strong>
                 </div>
-                <!-- <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
-                  <strong>2%</strong>
+                <!-- <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
                 </div> -->
-                <div class="progress-bar" role="progressbar" style="width:6%; background-color: #f1888f !important;">
-                  <strong>6%</strong>
+                <div class="progress-bar-3" role="progressbar" style="width:6%;"><strong>6%</strong>
                 </div>
-                <div class="progress-bar" role="progressbar" style="width:3%; background-color: #707070 !important;">
-                  <strong>3%</strong>
+                <div class="progress-bar-4" role="progressbar" style="width:3%;"><strong>3%</strong>
                 </div>
               </div><br>
+            </div>
+          </div>
+
                 <!-- End PI 3 -->
-
-
-
-
-
 
                 <!-- Optional JavaScript -->
                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
