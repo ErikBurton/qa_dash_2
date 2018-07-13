@@ -33,13 +33,15 @@
         <div class="carousel-item active">
           <h4>Legend</h4>
           <div class="progress">
-            <div class="progress-bar-1" role="progressbar" style="width:25%;"><strong>PASSED</strong>
+            <div class="progress-bar-1" role="progressbar" style="width:20%;"><strong>PASSED</strong>
             </div>
-            <div class="progress-bar-2 progress-bar-warning" role="progressbar" style="width:25%;"><strong>BLOCKED</strong>
+            <div class="progress-bar-2 progress-bar-warning" role="progressbar" style="width:20%;"><strong>BLOCKED</strong>
             </div>
-            <div class="progress-bar-3 progress-bar-danger" role="progressbar" style="width:25%;"><strong>FAILED</strong>
+            <div class="progress-bar-3 progress-bar-danger" role="progressbar" style="width:20%;"><strong>FAILED</strong>
             </div>
-            <div class="progress-bar-4" role="progressbar" style="width:25%;"><strong>UNTESTED</strong>
+            <div class="progress-bar-5" role="progressbar" style="width:20%;"><strong>RETEST</strong>
+            </div>
+            <div class="progress-bar-4" role="progressbar" style="width:20%;"><strong>UNTESTED</strong>
             </div>
           </div><br>
           <!-- End legend -->
@@ -65,16 +67,16 @@
             <!-- Begin EDGE Phase 1 -->
             <div class="border border-dark rounded">
               <h2>&ensp;EDGE Phase 1<span class="branch">
-                  [On Prem | Cloud]</span> (15 / 44 untested)</h2>
+                  [On Prem | Cloud]</span> (14 / 44 untested)</h2>
                 <br>
                 <div class="progress">
-                  <div class="progress-bar-1" role="progressbar" style="width:64%;"><strong>64%</strong>
+                  <div class="progress-bar-1" role="progressbar" style="width:66%;"><strong>66%</strong>
                   </div>
                   <!-- <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
                   </div> -->
                   <div class="progress-bar-3" role="progressbar" style="width:2%;"><strong>2%</strong>
                   </div>
-                  <div class="progress-bar-4 progress-bar-striped progress-bar-animated" role="progressbar" style="width:34%;"><strong>34%</strong>
+                  <div class="progress-bar-4 progress-bar-striped progress-bar-animated" role="progressbar" style="width:32%;"><strong>32%</strong>
                   </div>
                 </div><br>
             <!-- End EDGE Phase 1 -->
@@ -86,29 +88,33 @@
             <div class="carousel-item">
               <h4>Legend</h4>
               <div class="progress">
-                <div class="progress-bar-1" role="progressbar" style="width:25%;"><strong>PASSED</strong>
+                <div class="progress-bar-1" role="progressbar" style="width:20%;"><strong>PASSED</strong>
                 </div>
-                <div class="progress-bar-2" role="progressbar" style="width:25%;"><strong>BLOCKED</strong>
+                <div class="progress-bar-2" role="progressbar" style="width:20%;"><strong>BLOCKED</strong>
                 </div>
-                <div class="progress-bar-3" role="progressbar" style="width:25%;"><strong>FAILED</strong>
+                <div class="progress-bar-3" role="progressbar" style="width:20%;"><strong>FAILED</strong>
                 </div>
-                <div class="progress-bar-4" role="progressbar" style="width:25%;"><strong>UNTESTED</strong>
+                <div class="progress-bar-5" role="progressbar" style="width:20%;"><strong>RETEST</strong>
+                </div>
+                <div class="progress-bar-4" role="progressbar" style="width:20%;"><strong>UNTESTED</strong>
                 </div>
               </div><br>
               <!-- End legend -->
 
             <!-- Begin PI3 18.2.x.x Sanitiy -->
             <div class="border border-dark rounded">
-              <h2>&ensp;On Prem 18.2.x.x Smoke/Sanity<span style="color: red;"></span> (13 / 116 untested)</h2>
+              <h2>&ensp;On Prem 18.2.x.x Smoke/Sanity<span style="color: red;"></span> (5 / 116 untested)</h2>
                 <br>
                 <div class="progress">
-                  <div class="progress-bar-1" role="progressbar" style="width:76%;"><strong>76%</strong>
+                  <div class="progress-bar-1" role="progressbar" style="width:78%;"><strong>78%</strong>
                   </div>
-                  <div class="progress-bar-2" role="progressbar" style="width:5%;"><strong>5%</strong>
+                  <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
                   </div>
                   <div class="progress-bar-3" role="progressbar" style="width:8%;"><strong>8%</strong>
                   </div>
-                  <div class="progress-bar-4 progress-bar-striped progress-bar-animated" role="progressbar" style="width:11%;"><strong>11%</strong>
+                  <div class="progress-bar-5" role="progressbar" style="width:9%;"><strong>9%</strong>
+                  </div>
+                  <div class="progress-bar-4 progress-bar-striped progress-bar-animated" role="progressbar" style="width:4%;"><strong>4%</strong>
                   </div>
                 </div><br>
               </div><br>
@@ -156,21 +162,21 @@
                 <td> - </td>
                 <td> - </td>
               </tr>
-               <tr>
-                <td>CRITICAL</td>
+               <tr> -->
+                <td style="color: red;">HIGH</td>
                 <td>Bug</td>
-                <td>PI-10639</td>
-                <td>Email print jobs are not processed</td>
-                <td>Raj</td>
-                <td style="color: green;">DONE</td>
-              </tr> -->
+                <td>PI-10666</td>
+                <td>(CPA:Toshiba) Can't sign into CPA using badge</td>
+                <td>David Berry</td>
+                <td style="color: RED; background: yellow;">TODO</td>
+              </tr>
               <tr>
                 <td style="color: red;">HIGH</td>
                 <td>Bug</td>
                 <td>PI-10654</td>
                 <td>(All Toshibas) "Whoops something went wrong" error...</td>
-                <td>Kimball Willard</td>
-                <td style="color: red; background: yellow;">BUILDING</td>
+                <td>Ian Holdeman</td>
+                <td style="color: green; background: yellow;">TESTING</td>
               </tr>
             </tbody>
           </table>
@@ -247,7 +253,7 @@
 
             <!-- BEGIN JOKE OF THE DAY -->
                     <div class="carousel-item">
-                      <h1 class="text-center">Joke of the Day!</h1><br>
+                      <h1 class="text-center">Meme of the Day!</h1><br>
                       <%= link_to image_tag("jod.jpg", class: "mx-auto d-block") %>
                       </div>
                   </div>
