@@ -39,9 +39,9 @@
             </div>
             <div class="progress-bar-3 progress-bar-danger" role="progressbar" style="width:20%;"><strong>FAILED</strong>
             </div>
-            <div class="progress-bar-5" role="progressbar" style="width:20%;"><strong>RETEST</strong>
+            <div class="progress-bar-4" role="progressbar" style="width:20%;"><strong>RETEST</strong>
             </div>
-            <div class="progress-bar-4" role="progressbar" style="width:20%;"><strong>UNTESTED</strong>
+            <div class="progress-bar-5" role="progressbar" style="width:20%;"><strong>UNTESTED</strong>
             </div>
           </div><br>
           <!-- End legend -->
@@ -58,7 +58,7 @@
               </div>
               <div class="progress-bar-3" role="progressbar" style="width:6%;"><strong>6%</strong>
               </div>
-              <div class="progress-bar-4" role="progressbar" style="width:55%;"><strong>55%</strong>
+              <div class="progress-bar-5" role="progressbar" style="width:55%;"><strong>55%</strong>
               </div>
             </div><br>
           </div><br>
@@ -76,7 +76,7 @@
                   </div> -->
                   <div class="progress-bar-3" role="progressbar" style="width:2%;"><strong>2%</strong>
                   </div>
-                  <div class="progress-bar-4 progress-bar-striped progress-bar-animated" role="progressbar" style="width:16%;"><strong>16%</strong>
+                  <div class="progress-bar-5 progress-bar-striped progress-bar-animated" role="progressbar" style="width:16%;"><strong>16%</strong>
                   </div>
                 </div><br>
             <!-- End EDGE Phase 1 -->
@@ -94,16 +94,16 @@
                 </div>
                 <div class="progress-bar-3" role="progressbar" style="width:20%;"><strong>FAILED</strong>
                 </div>
-                <div class="progress-bar-5" role="progressbar" style="width:20%;"><strong>RETEST</strong>
+                <div class="progress-bar-4" role="progressbar" style="width:20%;"><strong>RETEST</strong>
                 </div>
-                <div class="progress-bar-4" role="progressbar" style="width:20%;"><strong>UNTESTED</strong>
+                <div class="progress-bar-5" role="progressbar" style="width:20%;"><strong>UNTESTED</strong>
                 </div>
               </div><br>
               <!-- End legend -->
 
-            <!-- Begin PI3 18.2.x.x Sanitiy -->
-            <div class="border border-dark rounded">
-              <h2>&ensp;On Prem 18.2.x.x Smoke/Sanity<span style="color: red;"></span> (2 / 116 untested)</h2>
+              <!-- On Prem Smoke/Sanity BEGIN -->
+              <div class="border border-dark rounded">
+                <h2>&ensp;On Prem 18.2.1.X<span class="branch"> Smoke/Sanity</span><span class="branch"></span> (1 / 116 untested)</h2>
                 <br>
                 <div class="progress">
                   <div class="progress-bar-1" role="progressbar" style="width:80%;"><strong>80%</strong>
@@ -112,13 +112,13 @@
                   </div>
                   <div class="progress-bar-3" role="progressbar" style="width:8%;"><strong>8%</strong>
                   </div>
-                  <div class="progress-bar-5" role="progressbar" style="width:9%;"><strong>9%</strong>
+                  <div class="progress-bar-4" role="progressbar" style="width:9%;"><strong>9%</strong>
                   </div>
-                  <div class="progress-bar-4 progress-bar-striped progress-bar-animated" role="progressbar" style="width:2%;"><strong>2%</strong>
+                  <div class="progress-bar-5" role="progressbar" style="width:1%;"><strong>1%</strong>
                   </div>
                 </div><br>
               </div><br>
-            <!-- End PI3 18.2.x.x Sanitiy -->
+            <!-- On Prem Smoke/Sanity END -->
 
             <!-- Begin PI 3 -->
             <div class="border border-dark rounded">
@@ -127,11 +127,11 @@
               <div class="progress">
                 <div class="progress-bar-1" role="progressbar" style="width:91%;"><strong>91%</strong>
                 </div>
-                <!-- <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
-                </div> -->
+                <div class="progress-bar-2" role="progressbar" style="width:2%;"><strong>2%</strong>
+                </div>
                 <div class="progress-bar-3" role="progressbar" style="width:6%;"><strong>6%</strong>
                 </div>
-                <div class="progress-bar-4" role="progressbar" style="width:3%;"><strong>3%</strong>
+                <div class="progress-bar-5" role="progressbar" style="width:3%;"><strong>3%</strong>
                 </div>
               </div><br>
             </div>
@@ -154,15 +154,7 @@
               </tr>
             </thead>
             <tbody>
-              <!-- <tr>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-                <td> - </td>
-              </tr>
-               <tr> -->
+               <tr>
                 <td style="color: red;">HIGH</td>
                 <td>Bug</td>
                 <td>PI-10666</td>
@@ -174,82 +166,14 @@
           </table>
         </div>
         <!-- End JIRA Ticket table     -->
-        <!-- <div class="carousel-item">
-          <h2>PrinterCloud 18.2 tickets in TESTING</h2>
-          <p></p>
-          <table class="table table-bordered table-striped">
-            <thead class="thead-dark">
-              <tr>
-                <th>Priority</th>
-                <th>Type</th>
-                <th>Key</th>
-                <th>Summary</th>
-                <th>Assignee</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>BLOCKING</td>
-                <td>Bug</td>
-                <td>PI-9863</td>
-                <td>CPA Xerox Versalink .225 Can not manually log in</td>
-                <td>Nick</td>
-                <td>TESTING</td>
-              </tr>
-              <tr>
-                <td>BLOCKING</td>
-                <td>Bug</td>
-                <td>PI-9867</td>
-                <td>(PC CPA:HP-204) OXPd error when opening CPA</td>
-                <td>Brian</td>
-                <td>TESTING</td>
-              </tr>
-              <tr>
-                <td>BLOCKING</td>
-                <td>Bug</td>
-                <td>PI-9953</td>
-                <td>(PrinterCloud) HP CPAi: SSL Certificate of SSH md5 fingerprint...</td>
-                <td>Steve</td>
-                <td>TESTING</td>
-              </tr>
-              <tr>
-                <td>CRITICAL</td>
-                <td>Bug</td>
-                <td>PI-9878</td>
-                <td>MAC as servicehost: email Service: SSL certificate verify failed</td>
-                <td>Raj</td>
-                <td>TESTING</td>
-              </tr>
-              <tr>
-                <td>CRITICAL</td>
-                <td>Bug</td>
-                <td>PI-10024</td>
-                <td>Run new instance migrations from worker server</td>
-                <td>Raj</td>
-                <td>TESTING</td>
-              </tr>
-              <tr>
-                <td>HIGH</td>
-                <td>Customer Bug</td>
-                <td>PI-9119</td>
-                <td>Kyocera Printer OS X</td>
-                <td>Justin</td>
-                <td>TESTING</td>
-              </tr>
-            </tbody>
-          </table>
-
-        </div> -->
-
 
             <!-- BEGIN JOKE OF THE DAY -->
                     <div class="carousel-item">
-                      <!-- <h1 class="text-center">Meme of the Day!</h1><br> -->
-                      <%= link_to image_tag("jod.png", class: "mx-auto d-block") %>
-                      </div>
-                  </div>
-                </div>
+                      <h1 class="text-center">Meme of the Day!</h1><br>
+                      <%= link_to image_tag("jod.jpg", class: "mx-auto d-block") %>
+                    </div>
+
+
             <!-- END JOKE OF THE DAY -->
                 <!-- Optional JavaScript -->
                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

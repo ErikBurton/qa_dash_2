@@ -14,10 +14,14 @@ body {
   color: red;
 }
 
+/* PASSED */
+
 .progress-bar-1 {
   background-color: #95d96d;
   text-align: center;
 }
+
+/* BLOCKED */
 
 .progress-bar-2 {
   background-color: #8080ff;
@@ -25,19 +29,25 @@ body {
   color: white;
 }
 
+/* FAILED */
+
 .progress-bar-3 {
   background-color: #F1888f;
   text-align: center;
 }
 
+/* RETEST */
+
 .progress-bar-4 {
+  background-color: #FFFA38;
+  text-align: center;
+  color: black;
+}
+
+/* UNTESTED */
+
+.progress-bar-5 {
   background-color: #707070;
   text-align: center;
   color: white;
-}
-
-.progress-bar-5 {
-  background-color: #fffa38;
-  text-align: center;
-  color: black;
 }
